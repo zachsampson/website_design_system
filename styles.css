@@ -1,0 +1,114 @@
+
+
+
+body {
+    background-color: #f2f7f8;
+    font-family: 'EB Garamond', serif;
+    
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: -10px;
+    color: #764245;
+}
+h2 {
+    font-size: 40px;
+    color: #36393B;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #764245;
+}
+p {
+    color: #111;
+}
+
+/* colors styles */
+.onyx {
+    color: #36393b; 
+}
+.onyx + div {
+    background-color: #36393b;
+}
+.maya_blue {
+    color: #70c1ff;
+}
+.maya_blue + div {
+    background-color: #70c1ff;
+}
+.cultured {
+    color: #f2f7f8;
+}
+.cultured + div {
+    background-color: #f2f7f8;
+}
+.black_shadows {
+    color: #b3a8ae;
+}
+.black_shadows + div {
+    background-color: #b3a8ae;
+}
+.tuscan_red {
+    color: #764245;
+}
+.tuscan_red + div {
+    background-color: #764245;
+}
+.container {
+    border: 1px solid #764245;
+    margin: -20px 0 0 0;
+    background-color: #fff;
+    display: inline-block;
+    padding: -0 10px 20px 10px;
+    width: 1350px;
+}
+.container div {
+    float: left;
+}
+.container h3 {
+    text-transform: uppercase;
+    margin-bottom: -6px;
+    font-size: 20px;
+}
+
+.color {
+    width:200px;
+    padding: 30px;
+    margin-right: 10px;
+}
+.color p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* fonts styles */
+
+.eb_garamond {
+    font-family: 'EB Garamond', serif;
+}
+.eb_garamond p {
+    font-family: 'EB Garamond', serif;
+}
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+.roboto_mono {
+    font-family: 'Roboto Mono', monospace;
+}
+.container .eb_garamond, .container .oswald {
+    margin-right: 50px;
+}
+
+/* text styles */
+.oswald h1 {
+    margin-top: 8px;
+}
+.text_styles p {
+    font-family: 'EB Garamond', serif;
+}
+.text_styles h2 {
+    margin-bottom: -8px;
+}
+.text_styles h3 {
+    margin-top: 38px;
+}
